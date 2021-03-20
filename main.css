@@ -1,0 +1,68 @@
+body{
+  background-color: black;
+}
+
+.nav{
+  color:white;
+  border: 5px ridge  white;
+  background-color:black
+
+}
+
+
+.hi{
+  width : 200px ;  
+  height : 300px;
+  cursor: pointer;
+}
+.video-film {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button{
+  cursor: pointer;
+  border-color:  0.16em solid rgba(255,255,255,0);
+  text-shadow : 0 0.04em 0.04em rgba(0,0,0,0.35);
+  padding: 12px 20px;
+  margin: 8px 0;
+  
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+ 
+}
+
+.movie{
+  position: relative;
+  font-family: Arial;
+  padding: 12px 20px;
+  margin: 8px 0;}
+
+ul{
+  background-color: #4F180C ;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
